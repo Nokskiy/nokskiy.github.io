@@ -18,4 +18,5 @@ ReadJson().then(data => {
     document.getElementById("project-status").textContent = data.status;
     document.getElementById("project-devs").textContent = data.devs;
     document.getElementById("project-text").textContent = data.text;
+    document.getElementById("project-link").setAttribute("href", data.link);
 });
