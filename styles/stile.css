@@ -1,8 +1,8 @@
 :root {
-  --bg1: #30005e;
-  --bg2: #111;
-  --sections-color1: rgb(0, 140, 255);
-  --sections-color2: rgb(0, 81, 148);
+  --bg1: #572781;
+  --bg2: #3E0470;
+  --sections-color1: #7f3abb;
+  --sections-color2: #A368D5;
   --text-color: azure;
 }
 
@@ -21,10 +21,10 @@ body{
 
 section {
     background: radial-gradient(circle,var(--sections-color1), var(--sections-color2));
-    border-radius: 10px;
+    border-radius: 40px;
     padding: 20px;
-    padding-right: 30%;
-    padding-left: 30%;
+    padding-right: 20%;
+    padding-left: 20%;
     display: flex;
     justify-content: center;
 }
