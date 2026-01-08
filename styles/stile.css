@@ -1,8 +1,16 @@
+:root {
+  --bg1: #30005e;
+  --bg2: #111;
+  --sections-color1: rgb(0, 140, 255);
+  --sections-color2: rgb(0, 81, 148);
+  --text-color: azure;
+}
+
 html{
     font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(to bottom,#30005e, #111);
+    background: linear-gradient(to bottom,var(--bg1), var(--bg2));
     min-height: 100vh; 
-    color: azure;
+    color: var(--text-color);
 }
 
 body{
@@ -12,7 +20,7 @@ body{
 }
 
 section {
-    background: radial-gradient(circle,#555555, #3b3b3b);;
+    background: radial-gradient(circle,var(--sections-color1), var(--sections-color2));
     border-radius: 10px;
     padding: 20px;
     padding-right: 30%;
