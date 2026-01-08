@@ -15,7 +15,7 @@ html{
 }
 
 body{
-    display: inline-block;
+    display: flexbox;
     justify-content: center;
     text-align: center;
 }

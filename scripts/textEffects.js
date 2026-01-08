@@ -16,12 +16,14 @@ class TextEffectsManager {
         this.SetText(elementId,"");
         for(let i = 0; i < textContent.length;i++) {
             this.AddSymbols(elementId, textContent[i]);
-            await new Promise(resolve => setTimeout(resolve,100));
+            await new Promise(resolve => setTimeout(resolve,20));
         }
     }
 
     constructor() {
         this.WriteText("nick");
+        this.WriteText("about-text1");
+        this.WriteText("about-text2");
     }
 }
 
