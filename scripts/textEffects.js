@@ -26,3 +26,4 @@ class TextEffectsManager {
 }
 
 var textEffectsManager = new TextEffectsManager();
+
