@@ -5,6 +5,7 @@
 }
 
 .card {
+    overflow: hidden;
     background-color: var(--card-background);
     border-radius: 20px;
     transition: all 0.3s ease-in-out;

@@ -1,6 +1,5 @@
 .round-img {
     border-radius: 50%;
-    overflow: hidden;
 }
 
 .profile-img{
@@ -9,4 +8,10 @@
 
 .socials-imgs{
     width: 65px;
+}
+
+.project-previeve-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
