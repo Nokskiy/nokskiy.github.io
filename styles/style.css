@@ -18,7 +18,7 @@
   --card-background-static2: #584866; 
 
   --card-background-hover1: #584866; 
-  --card-background-hover2: #dd0a0a; 
+  --card-background-hover2: #900add; 
 
   --text-color: azure;
 }
@@ -69,5 +69,7 @@ section {
 
 
 @media (max-width: 1280px) {
-    
+    html {
+        font-size: larger;
+    }
 }

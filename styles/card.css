@@ -17,8 +17,7 @@
 .card:hover {
     background: linear-gradient(180deg,var(--card-background-hover1), var(--card-background-hover2));
     
-    transform: translateY(-15px);
-    scale: 1.1;
+    transform: translateY(15px);
 }
 
 
