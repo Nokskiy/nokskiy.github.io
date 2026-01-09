@@ -6,12 +6,15 @@
 
 .card {
     overflow: hidden;
-    background-color: var(--card-background);
+    background: linear-gradient(180deg,var(--card-background-static1), var(--card-background-static2));
+
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
 }
 
 .card:hover {
+    background: linear-gradient(180deg,var(--card-background-hover1), var(--card-background-hover2));
+    
     transform: translateY(-15px);
     scale: 1.1;
 }

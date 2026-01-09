@@ -1,10 +1,32 @@
 :root {
   --bg1: #572781;
   --bg2: #3E0470;
-  --sections-color1: #7f3abb;
-  --sections-color2: #A368D5;
-  --card-background: #612a91; 
+
+  --section1-color1: #7f3abb;
+  --section1-color2: #572285;
+
+  --section2-color1: #55277c;
+  --section2-color2: #7f3abb;
+
+  --section3-color1: #41364b;
+  --section3-color2: #7f3abb;
+
+  --section4-color1: #424242;
+  --section4-color2: #7f3abb;
+
+  --card-background-static1: #612a91; 
+  --card-background-static2: #584866; 
+
+  --card-background-hover1: #584866; 
+  --card-background-hover2: #dd0a0a; 
+
   --text-color: azure;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -18,20 +40,29 @@ html{
 body{
     display: flexbox;
     justify-content: center;
-    text-align: center;
 }
 
 section {
-    background: radial-gradient(circle,var(--sections-color1), var(--sections-color2));
-    margin-top: 15px;
-    width: 50%;
-
-    height: fit-content;
-    display: inline-block;
-
-    border-radius: 30px;
-
-    padding: 20px;
-
+    width: 100%;
+    padding: 50px;
     text-align: center;
+}
+
+.represent {
+    background: linear-gradient(to right,var(--section1-color1), var(--section1-color2));
+}
+
+.About {
+    background: linear-gradient(to right,var(--section2-color1), var(--section2-color2));
+}
+
+.projects {
+    padding-left: 20%;
+    padding-right: 20%;
+    background: linear-gradient(to right,var(--section3-color1), var(--section3-color2));
+}
+
+.footer {
+    padding: 50px;
+    background: linear-gradient(to right,var(--section4-color1), var(--section4-color2));
 }
